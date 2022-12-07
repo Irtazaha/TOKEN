@@ -5,7 +5,7 @@
 
 import requests, re
   
-print('\n** < GET FB ACCESS TOKEN FROM COOKIE (toolby MMS) > **\n')
+print('\n** < GET FB ACCESS TOKEN FROM COOKIE > **\n')
 cookie = input('* Cookie? : ')
 try:
     data = requests.get('https://business.facebook.com/business_locations', headers = {
