@@ -19,7 +19,7 @@ try:
         'accept'                    : 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
         'content-type'              : 'text/html; charset=utf-8'
     }, cookies = {
-        'cookie'                    : 🍪 cookies (TOOL BY MUHAMMAD MOSHIN)
+        'cookie'                    : cookies
     })
     find_token = re.search('(EAAG\w+)', data.text)
     results    = '\n* Fail : maybe your cookie invalid !!' if (find_token is None) else '\n* Your fb access token : ' + find_token.group(1)
